@@ -1,6 +1,7 @@
 object StringProcessor {
   def processStrings(strings: List[String]): List[String] = {
-    strings.filter(_.length > 3).map(_.toUpperCase)
+    //вместо описания шагов(цикл, условие) добавлены функции filter, map
+    strings.filter(_.length > 3).map(_.toUpperCase)   
   }
 
   def main(args: Array[String]): Unit = {
